@@ -1,0 +1,12 @@
+{
+  "name": "practica-js-navegador",
+  "version": "1.0.0",
+  "description": "Práctica JavaScript en el Navegador - KeepCoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "sigutier",
+  "license": "ISC"
+}
