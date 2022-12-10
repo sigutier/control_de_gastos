@@ -18,12 +18,7 @@ html{
     width: 50%;
 }
 
-.list-group-item{
-    display: flex;
-}
-#container-gasto {
-    display: flex;
-    flex-direction: column;
+#gasto {
     text-align: center;
     width: 50%;
 }

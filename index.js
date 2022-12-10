@@ -55,7 +55,7 @@ function actualizarAhorro() {
     ahorroTotal += transaccion.valor;
   });
   const total = document.getElementById("ahorro-total");
-  total.textContent = ahorroTotal;
+  total.textContent = `${ahorroTotal} €`;
 }
 
 function actualizarIngreso() {
@@ -65,7 +65,7 @@ function actualizarIngreso() {
       return acc + transaccion.valor;
     }, 0);
   const ingresoTotal = document.getElementById("ingreso-total");
-  ingresoTotal.textContent = numerosPositivos;
+  ingresoTotal.textContent = `${numerosPositivos} €`;
 }
 
 function actualizarGasto() {
@@ -75,7 +75,7 @@ function actualizarGasto() {
       return acc + transaccion.valor;
     }, 0);
   const gastoTotal = document.getElementById("gasto-total");
-  gastoTotal.textContent = numerosNegativos;
+  gastoTotal.textContent = `${numerosNegativos} €`;
 }
 
 function guardarSesion() {
