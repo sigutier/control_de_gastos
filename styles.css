@@ -1,16 +1,24 @@
-html{
-    margin: 50px;
+html {
+    margin: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        margin: 5px;
+    }
 }
 
 #container {
     max-width: 780px;
     display: flex;
 }
+
 #container-ahorro {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 #ingreso {
     border-right: 1px solid;
     border-color: var(--bs-gray-300);
@@ -48,3 +56,9 @@ html{
     --bd-callout-border: rgba(var(--bs-danger-rgb), .5);
 }
 
+.transaccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
